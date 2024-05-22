@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://carlosgoro.github.io/</loc>
-    <lastmod>2024-05-22T11:10:43+02:00</lastmod>
+    <lastmod>2024-05-22T11:13:33+02:00</lastmod>
+  </url><url>
+    <loc>https://carlosgoro.github.io/post/even-more-content/</loc>
+    <lastmod>2024-05-22T11:13:33+02:00</lastmod>
   </url><url>
     <loc>https://carlosgoro.github.io/post/</loc>
-    <lastmod>2024-05-22T11:10:43+02:00</lastmod>
+    <lastmod>2024-05-22T11:13:33+02:00</lastmod>
   </url><url>
     <loc>https://carlosgoro.github.io/post/testing-hugo-deploy/</loc>
     <lastmod>2024-05-22T11:10:43+02:00</lastmod>

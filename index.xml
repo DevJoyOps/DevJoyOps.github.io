@@ -6,8 +6,15 @@
     <description>Recent content on DevJoyOps</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 11:10:43 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 11:13:33 +0200</lastBuildDate>
     <atom:link href="https://carlosgoro.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Even More Content</title>
+      <link>https://carlosgoro.github.io/post/even-more-content/</link>
+      <pubDate>Wed, 22 May 2024 11:13:33 +0200</pubDate>
+      <guid>https://carlosgoro.github.io/post/even-more-content/</guid>
+      <description>Is the theme broken?</description>
+    </item>
     <item>
       <title>Testing Hugo Deploy</title>
       <link>https://carlosgoro.github.io/post/testing-hugo-deploy/</link>
