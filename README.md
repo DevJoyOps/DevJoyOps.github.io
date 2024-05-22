@@ -1,3 +1,0 @@
-# carlosgoro.github.io
-
-
