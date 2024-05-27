@@ -13,7 +13,7 @@
       <link>https://devjoyops.github.io/post/fooling-around-with-locust/</link>
       <pubDate>Sun, 21 Apr 2024 17:13:20 +0200</pubDate>
       <guid>https://devjoyops.github.io/post/fooling-around-with-locust/</guid>
-      <description>Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&amp;rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&amp;rsquo;m using Scala, and I&amp;rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
+      <description>I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&amp;rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&amp;rsquo;m using Scala, and I&amp;rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
 According to Locust website:
 https://docs.locust.io/en/stable/what-is-locust.html
 What is Locust?
