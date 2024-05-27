@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Fooling around with Locust | DevJoyOps</title>
 <meta name="keywords" content="">
 <meta name="description" content="Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&rsquo;m using Scala, and I&rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
@@ -13,16 +13,16 @@ https://docs.locust.io/en/stable/what-is-locust.html
 What is Locust?
 Locust is an open source performance/load testing tool for HTTP and other protocols.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/post/fooling-around-with-locust/">
+<link rel="canonical" href="https://devjoyops.github.io/post/fooling-around-with-locust/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://devjoyops.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://devjoyops.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://devjoyops.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://devjoyops.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://devjoyops.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/post/fooling-around-with-locust/">
+<link rel="alternate" hreflang="en" href="https://devjoyops.github.io/post/fooling-around-with-locust/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,6 +60,77 @@ Locust is an open source performance/load testing tool for HTTP and other protoc
 
     </style>
 </noscript>
+  
+
+<meta property="og:title" content="Fooling around with Locust" />
+<meta property="og:description" content="Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&rsquo;m using Scala, and I&rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
+According to Locust website:
+https://docs.locust.io/en/stable/what-is-locust.html
+What is Locust?
+Locust is an open source performance/load testing tool for HTTP and other protocols." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://devjoyops.github.io/post/fooling-around-with-locust/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-04-21T17:13:20+02:00" />
+<meta property="article:modified_time" content="2024-04-21T17:13:20+02:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fooling around with Locust"/>
+<meta name="twitter:description" content="Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&rsquo;m using Scala, and I&rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
+According to Locust website:
+https://docs.locust.io/en/stable/what-is-locust.html
+What is Locust?
+Locust is an open source performance/load testing tool for HTTP and other protocols."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://devjoyops.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Fooling around with Locust",
+      "item": "https://devjoyops.github.io/post/fooling-around-with-locust/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fooling around with Locust",
+  "name": "Fooling around with Locust",
+  "description": "Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it\u0026rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I\u0026rsquo;m using Scala, and I\u0026rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).\nAccording to Locust website:\nhttps://docs.locust.io/en/stable/what-is-locust.html\nWhat is Locust?\nLocust is an open source performance/load testing tool for HTTP and other protocols.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it’s a Python-based tool, since right now Gatling is the only one in my current stack where I’m using Scala, and I’d like to simplify it (and have the possibility for more people to a team can start writing tests).\nAccording to Locust website:\nhttps://docs.locust.io/en/stable/what-is-locust.html\nWhat is Locust?\nLocust is an open source performance/load testing tool for HTTP and other protocols. Its developer-friendly approach lets you define your tests in regular Python code.\nLocust tests can be run from command line or using its web-based UI. Throughput, response times and errors can be viewed in real time and/or exported for later analysis.\nYou can import regular Python libraries into your tests, and with Locust’s pluggable architecture it is infinitely expandable. Unlike when using most other tools, your test design will never be limited by a GUI or domain-specific language.\nAnd with this I no longer waste time on the introduction. I’m also not going to go into theory or testing strategies.\nI know that knowing how a tool works is not the same as being clear about what to do with it, and that it is more important to be clear about the objectives we want to achieve, but today we have not come to that.\nSo there we go.\nCreating the virtual environment.\n$ virtualenv .venv --python=python3.10 $ . .venv/bin/activate The wheat To do a quick test with Locust the first thing is to set up a simple API with FastAPI, and Faker to generate test data in the API response.\n$ pip install fastapi Faker $ mkdir target $ touch target/main.py A “Quick and Dirty” script to start:\n# main.py from fastapi import FastAPI from faker import Faker from random import randint from time import sleep class FakeDB: def __init__(self) -\u003e None: self.__data = Faker() def __decide_response(self) -\u003e None: if randint(0, 10) == 1: if randint(0, 5) == 1: raise Exception else: sleep(randint(1, 6)) else: sleep(0.05) def get_people_list(self) -\u003e list: self.__decide_response() return [{ \"id\": i, \"name\": self.__data.name() } for i in range(1, 26)] def get_people_detail(self, person_id: int) -\u003e dict: self.__decide_response() return { \"id\": person_id, \"name\": self.__data.name(), \"company\": self.__data.company(), \"address\": self.__data.address(), \"job\": self.__data.job() } db = FakeDB() app = FastAPI() @app.get(\"/api\") def home_page(): return {\"msg\": \"Hi pals!\"} @app.get(\"/api/people\") def people_list(): data = db.get_people_list() return {\"result\": data} @app.get(\"/api/people/{person_id}\") def people_detail(person_id: int): data = db.get_people_detail(person_id=person_id) return {\"result\": data} I’m not going to bother ensuring consistency of responses, so each call will return different values. Errors and slower responses are also forced to appear randomly.\nIt’s not the prettiest way to do it, but it works and is enough to start playing.\n$ fastai run target/main.py The locust Install Locust and create the file with the tests.\n$ pip install locust $ mkdir test $ cd test $ touch locustfile.py The script # locustfile.py from locust import HttpUser, task class PeopleTest(HttpUser): @task def homepage(self): self.client.get(\"/api\") @task def people_list(self): self.client.get(\"/api/people\") @task def people_detail(self): i = 7 self.client.get(\"/api/people/{}\".format(i)) Very simple, without settings or customizations: direct calls to the API. Then we will see the changes that we can introduce.\nWe can start testing it.\nWeb Interface For the initial test run the Locust web interface.\n$ locust Starting web interface at http://0.0.0.0:8089 On the initial page it asks us for a series of parameters:\nNumber of users: what is the maximum peak number of users that we want to reach. Ramp up: how many new users will be added every second from the starting value until reaching the peak. Host: base url against which we will run the tests. Advanced options - Run time: duration of the test. Once the values are set, the execution begins.\nAfter the 2 minutes, we have the results.\nWe can navigate through the different tabs to see more information.\nIn the charts option we see how the response time has varied throughout the execution (due to the forced delay that we have introduced).\nThe summary of errors received from the target API (also forced).\nAlso, of course, we can download the reports in CSV format with the information on the execution of the tests in case we want to load them into our own tool to analyze the data.\nAll this is fine, but it is impractical to scheduling periodic or remote executions and collecting the data. Can we do something about this?\nWell, yes, we can.\nCommand line execution If we want to automate the execution of the tests or even integrate them into a pipeline (why not? Worse things have been seen) it is necessary to be able to execute them from a command line, and it is essential that files with the reports can be generated.\nWe could do the same execution that we have done from the web interface by executing:\nlocust -f locustfile.py --headless --users 50 --spawn-rate 2 -t 2m -H http://0.0.0.0:8000 --csv csv/target Or even using a configuration file with the parameters we use:\n# locust.conf locustfile = locustfile.py host = http://0.0.0.0:8000 headless = true users = 100 spawn-rate = 2 run-time = 10s locust --config locust.conf --csv csv/target Other settings This quick test leaves many points to consider, and many improvements that we can make.\nFor example, in a real application we should extract the ids (ideally uids) from the results of a call to the listings, so we must establish a strategy to read them from a previous request, or load known test data with those ids.\nAnother example: in the case that our API requires authentication, we have the on_start method that would be executed automatically to obtain the access token (we have to handle for the next calls).\nclass PeopleTest(HttpUser): def on_start(self): response = self.client.post( \"/api/token\", json={ \"username\": \"myuser\", \"password\": \"b4d-pa55w0rd\" } ) # obtener el token de response... ... The HttpUser class has several properties to modify the execution behavior, such as wait_time to establish an automatic delay between requests.\n# locustfile.py from locust import HttpUser, task, between class PeopleTest(HttpUser): wait_time = between(0.5, 2) ... The @task decorator can also be parameterized to set a weight for that request, so that call would be executed n more times than an unparameterized one\n@task(3) def people_list(self): self.client.get(\"/api/people\") We can also run Locust in a Docker container, so we only have to worry about keeping the file with our tests in our repository, without having to install any libraries in our project.\nhttps://docs.locust.io/en/stable/running-in-docker.html\nAnd this without using plugins yet. We have a few to expand the capabilities of Locust, adding new protocols, using input data from CSV or MongoDB, and more.\nhttps://github.com/SvenskaSpel/locust-plugins\nI still have to send and view the data in an external tool, but with this little work we have everything we need to start considering Locust as a more than viable replacement for Gatling.\n",
+  "wordCount" : "1139",
+  "inLanguage": "en",
+  "datePublished": "2024-04-21T17:13:20+02:00",
+  "dateModified": "2024-04-21T17:13:20+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://devjoyops.github.io/post/fooling-around-with-locust/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "DevJoyOps",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://devjoyops.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -77,7 +148,7 @@ Locust is an open source performance/load testing tool for HTTP and other protoc
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="DevJoyOps (Alt + H)">DevJoyOps</a>
+            <a href="https://devjoyops.github.io/" accesskey="h" title="DevJoyOps (Alt + H)">DevJoyOps</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -339,7 +410,7 @@ run-time = 10s
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/">DevJoyOps</a></span> · 
+        <span>&copy; 2024 <a href="https://devjoyops.github.io/">DevJoyOps</a></span> · 
 
     <span>
         Powered by

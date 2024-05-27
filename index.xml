@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DevJoyOps</title>
-    <link>http://localhost:1313/</link>
+    <link>https://devjoyops.github.io/</link>
     <description>Recent content on DevJoyOps</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Apr 2024 17:13:20 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://devjoyops.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fooling around with Locust</title>
-      <link>http://localhost:1313/post/fooling-around-with-locust/</link>
+      <link>https://devjoyops.github.io/post/fooling-around-with-locust/</link>
       <pubDate>Sun, 21 Apr 2024 17:13:20 +0200</pubDate>
-      <guid>http://localhost:1313/post/fooling-around-with-locust/</guid>
+      <guid>https://devjoyops.github.io/post/fooling-around-with-locust/</guid>
       <description>Fooling around with Locust I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&amp;rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&amp;rsquo;m using Scala, and I&amp;rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
 According to Locust website:
 https://docs.locust.io/en/stable/what-is-locust.html
@@ -21,9 +21,9 @@ Locust is an open source performance/load testing tool for HTTP and other protoc
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/hello-world/</link>
+      <link>https://devjoyops.github.io/post/hello-world/</link>
       <pubDate>Sun, 21 Apr 2024 10:52:52 +0200</pubDate>
-      <guid>http://localhost:1313/post/hello-world/</guid>
+      <guid>https://devjoyops.github.io/post/hello-world/</guid>
       <description>And there we go!</description>
     </item>
   </channel>
