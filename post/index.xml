@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on DevJoyOps</title>
     <link>https://devjoyops.github.io/post/</link>
     <description>Recent content in Posts on DevJoyOps</description>
-    <generator>Hugo -- 0.126.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 May 2024 18:41:55 +0200</lastBuildDate>
     <atom:link href="https://devjoyops.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,14 @@
       <link>https://devjoyops.github.io/post/recommendation-system-bad/</link>
       <pubDate>Mon, 27 May 2024 18:41:55 +0200</pubDate>
       <guid>https://devjoyops.github.io/post/recommendation-system-bad/</guid>
-      <description>The topic Studying how collaborative filtering recommendation systems work, I tried to do the typical movie recommendation system practice based on a Kaggle dataset. Specifically this:
-https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset
-Once downloaded, the two interesting files to start exploring the topic are these two:
-movie.csv rating.csv $ head movie.csv &amp;#34;movieId&amp;#34;,&amp;#34;title&amp;#34;,&amp;#34;genres&amp;#34; 1,&amp;#34;Toy Story (1995)&amp;#34;,&amp;#34;Adventure|Animation|Children|Comedy|Fantasy&amp;#34; 2,&amp;#34;Jumanji (1995)&amp;#34;,&amp;#34;Adventure|Children|Fantasy&amp;#34; 3,&amp;#34;Grumpier Old Men (1995)&amp;#34;,&amp;#34;Comedy|Romance&amp;#34; 4,&amp;#34;Waiting to Exhale (1995)&amp;#34;,&amp;#34;Comedy|Drama|Romance&amp;#34; 5,&amp;#34;Father of the Bride Part II (1995)&amp;#34;,&amp;#34;Comedy&amp;#34; 6,&amp;#34;Heat (1995)&amp;#34;,&amp;#34;Action|Crime|Thriller&amp;#34; 7,&amp;#34;Sabrina (1995)&amp;#34;,&amp;#34;Comedy|Romance&amp;#34; 8,&amp;#34;Tom and Huck (1995)&amp;#34;,&amp;#34;Adventure|Children&amp;#34; 9,&amp;#34;Sudden Death (1995)&amp;#34;,&amp;#34;Action&amp;#34; $ head rating.</description>
+      <description>The topic Studying how collaborative filtering recommendation systems work, I tried to do the typical movie recommendation system practice based on a Kaggle dataset. Specifically this:&#xA;https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset&#xA;Once downloaded, the two interesting files to start exploring the topic are these two:&#xA;movie.csv rating.csv $ head movie.csv &amp;#34;movieId&amp;#34;,&amp;#34;title&amp;#34;,&amp;#34;genres&amp;#34; 1,&amp;#34;Toy Story (1995)&amp;#34;,&amp;#34;Adventure|Animation|Children|Comedy|Fantasy&amp;#34; 2,&amp;#34;Jumanji (1995)&amp;#34;,&amp;#34;Adventure|Children|Fantasy&amp;#34; 3,&amp;#34;Grumpier Old Men (1995)&amp;#34;,&amp;#34;Comedy|Romance&amp;#34; 4,&amp;#34;Waiting to Exhale (1995)&amp;#34;,&amp;#34;Comedy|Drama|Romance&amp;#34; 5,&amp;#34;Father of the Bride Part II (1995)&amp;#34;,&amp;#34;Comedy&amp;#34; 6,&amp;#34;Heat (1995)&amp;#34;,&amp;#34;Action|Crime|Thriller&amp;#34; 7,&amp;#34;Sabrina (1995)&amp;#34;,&amp;#34;Comedy|Romance&amp;#34; 8,&amp;#34;Tom and Huck (1995)&amp;#34;,&amp;#34;Adventure|Children&amp;#34; 9,&amp;#34;Sudden Death (1995)&amp;#34;,&amp;#34;Action&amp;#34; $ head rating.</description>
     </item>
     <item>
       <title>Fooling around with Locust</title>
       <link>https://devjoyops.github.io/post/fooling-around-with-locust/</link>
       <pubDate>Sun, 21 Apr 2024 17:13:20 +0200</pubDate>
       <guid>https://devjoyops.github.io/post/fooling-around-with-locust/</guid>
-      <description>I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&amp;rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&amp;rsquo;m using Scala, and I&amp;rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).
-According to Locust website:
-https://docs.locust.io/en/stable/what-is-locust.html
-What is Locust?
-Locust is an open source performance/load testing tool for HTTP and other protocols.</description>
+      <description>I am considering replacing Gatling with Locust for load tests. The only reason (for now) is that it&amp;rsquo;s a Python-based tool, since right now Gatling is the only one in my current stack where I&amp;rsquo;m using Scala, and I&amp;rsquo;d like to simplify it (and have the possibility for more people to a team can start writing tests).&#xA;According to Locust website:&#xA;https://docs.locust.io/en/stable/what-is-locust.html&#xA;What is Locust?&#xA;Locust is an open source performance/load testing tool for HTTP and other protocols.</description>
     </item>
     <item>
       <title>Hello World</title>

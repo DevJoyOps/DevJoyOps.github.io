@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL on DevJoyOps</title>
+    <link>https://devjoyops.github.io/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on DevJoyOps</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2024 18:41:55 +0200</lastBuildDate>
+    <atom:link href="https://devjoyops.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommendation system in the very, very wrong and ugly (but somehow funny) way</title>
+      <link>https://devjoyops.github.io/post/recommendation-system-bad/</link>
+      <pubDate>Mon, 27 May 2024 18:41:55 +0200</pubDate>
+      <guid>https://devjoyops.github.io/post/recommendation-system-bad/</guid>
+      <description>The topic Studying how collaborative filtering recommendation systems work, I tried to do the typical movie recommendation system practice based on a Kaggle dataset. Specifically this:&#xA;https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset&#xA;Once downloaded, the two interesting files to start exploring the topic are these two:&#xA;movie.csv rating.csv $ head movie.csv &amp;#34;movieId&amp;#34;,&amp;#34;title&amp;#34;,&amp;#34;genres&amp;#34; 1,&amp;#34;Toy Story (1995)&amp;#34;,&amp;#34;Adventure|Animation|Children|Comedy|Fantasy&amp;#34; 2,&amp;#34;Jumanji (1995)&amp;#34;,&amp;#34;Adventure|Children|Fantasy&amp;#34; 3,&amp;#34;Grumpier Old Men (1995)&amp;#34;,&amp;#34;Comedy|Romance&amp;#34; 4,&amp;#34;Waiting to Exhale (1995)&amp;#34;,&amp;#34;Comedy|Drama|Romance&amp;#34; 5,&amp;#34;Father of the Bride Part II (1995)&amp;#34;,&amp;#34;Comedy&amp;#34; 6,&amp;#34;Heat (1995)&amp;#34;,&amp;#34;Action|Crime|Thriller&amp;#34; 7,&amp;#34;Sabrina (1995)&amp;#34;,&amp;#34;Comedy|Romance&amp;#34; 8,&amp;#34;Tom and Huck (1995)&amp;#34;,&amp;#34;Adventure|Children&amp;#34; 9,&amp;#34;Sudden Death (1995)&amp;#34;,&amp;#34;Action&amp;#34; $ head rating.</description>
+    </item>
+  </channel>
+</rss>
